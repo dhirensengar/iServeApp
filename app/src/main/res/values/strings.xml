@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">iSERV</string>
+    <string name="error_msg_invalid_credentials">Please contact with your administrator</string>
+
+    <string-array name="equipment_list">
+        <item>Chiller - Centrifugal</item>
+        <item>Chiller - Recip - Air Cooled</item>
+        <item>Chiller - Recip - Water Cooled</item>
+        <item>Chiller - Screw - Air Cooled</item>
+        <item>Chiller - Screw - Water Cooled</item>
+        <item>RTU</item>
+        <item>Splits</item>
+        <item>Mini Splits &lt;5T</item>
+        <item>AHU</item>
+        <item>FAHU</item>
+        <item>FCU</item>
+        <item>Pump</item>
+
+    </string-array>
+    <string-array name="service_list">
+        <item>Major</item>
+        <item>Minor</item>
+        <item>Cleaning</item>
+        <item>Inspection</item>
+        <item>Break Down</item>
+        <!-- (Major Maintenance & Inspection are similar)-->
+    </string-array>
+
+    <string name="SERVER_ADDRESS">http://tact4tech.in/projects/iserve/api/</string>
+
+    <string name="API_LOGIN">logincheck.php</string>
+    <string name="API_SERVICE">service.php</string>
+    <string name="API_QUESTION">question.php</string>
+    <string name="API_SUBMIT_VERIFY">submit.php</string>
+    <string-array name="pre_question_list">
+        <item>Is access to the site adequate?</item>
+        <item>Is the access to the equipment adequate?</item>
+        <item>Is there safe working platform and access available?</item>
+        <item>Is scaffolding required to carry out the job safely?</item>
+        <item>Are there units located at any roof edges without parapet?</item>
+        <item>Is there sufficient working space around the unit?</item>
+        <item>Are electrical devices such as isolators, circuit breakers &amp; ELCB in place?</item>
+        <item>Can the equipment be isolated and locked-out?</item>
+        <item>Is there any rotating equipment (machines) without machine guards?</item>
+        <item>Are there any sharp edges?</item>
+        <item>Is there any job to be performed in confined space?</item>
+        <item>Are there any walking/working hazards (slipping, tripping hazards)?</item>
+        <item>Is there any risk of falling from heights: roofs, stair case, platforms etc?</item>
+        <item>Is there any overhead hazard?</item>
+        <item>Is there any of worker in contact with high temperature?</item>
+        <item>Any hazards such as the worker strike against, struck by, caught in between?</item>
+        <item>Any hazard of inhaling / absorbing toxic substances?</item>
+        <item>Any hazard of exposing to the chemical / physical agents?</item>
+        <item>Any jobs involved pulling, pushing, over reaching or any awkward position?</item>
+        <item>Is it safe to perform welding, cutting, brazing etc. &amp; handling of gas cylinder?</item>
+        <item>Is there any fire hazard? Combustible material stored?</item>
+        <item>Is the general housekeeping safe enough to perform the job?</item>
+
+
+    </string-array>
+
+
+
+    <string name="agreement">I agree the terms and conditions.</string>
+    <string name="clear_pad">Clear Pad</string>
+    <string name="save_signature">Save &amp; Submit</string>
+</resources>

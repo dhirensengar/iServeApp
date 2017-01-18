@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/textViewQDMaster"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="QDMaster"
+            android:textColor="@color/colorBlack"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewQuestions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Room temperature "
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/textSizeQuestion" />
+
+    <LinearLayout
+        android:id="@+id/layoutAnswerText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+
+        <EditText
+            android:id="@+id/editTextAnswerAdditionalText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/layout_rounded_white"
+            android:minLines="3"
+            android:padding="5dp"
+            android:textColor="@color/coloEditText"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <RadioButton
+                android:id="@+id/radioButton1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleX="0.90"
+                android:scaleY="0.90"
+                android:text="50 degree"
+                android:textSize="@dimen/textSize3"
+                android:visibility="visible" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleX="0.90"
+                android:scaleY="0.90"
+                android:text="40 degree"
+                android:textSize="@dimen/textSize3"
+                android:visibility="visible" />
+
+            <RadioButton
+                android:id="@+id/radioButton3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleX="0.90"
+                android:scaleY="0.90"
+                android:text="37 degree"
+                android:textSize="@dimen/textSize3"
+                android:visibility="visible" />
+
+            <RadioButton
+                android:id="@+id/radioButton4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleX="0.90"
+                android:scaleY="0.90"
+                android:text="21 degree"
+                android:textSize="@dimen/textSize3"
+                android:visibility="visible" />
+
+            <RadioButton
+                android:id="@+id/radioButton5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleX="0.90"
+                android:scaleY="0.90"
+                android:text="18 degree"
+                android:textSize="@dimen/textSize3"
+                android:visibility="visible" />
+
+
+            <TextView
+                android:id="@+id/textViewTakePhoto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onTakePhotoClick"
+                android:padding="10dp"
+                android:text="Take a photo"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:visibility="visible" />
+        </RadioGroup>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/layoutSkip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|right"
+        android:gravity="center|right"
+        android:onClick="onSkipClick"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:visibility="visible">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:text="Skip this question"
+
+            android:textColor="@color/coloEditText2"
+            android:textSize="13dip"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@color/coloEditText2"
+            android:gravity="center"></LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
