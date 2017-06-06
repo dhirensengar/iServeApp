@@ -79,7 +79,9 @@
                             android:background="@android:color/transparent"
                             android:fitsSystemWindows="true"
                             android:hint="User id"
+                            android:inputType="textEmailAddress"
                             android:maxLines="1"
+                            android:text="test@gmail.com"
                             android:paddingLeft="10dp"
                             android:singleLine="true"
                             android:textColor="@color/coloEditText"
@@ -132,6 +134,7 @@
                             android:hint="Password"
                             android:inputType="textPassword"
                             android:maxLines="1"
+                            android:text="123"
                             android:paddingLeft="10dp"
                             android:textColor="@color/coloEditText"
                             android:textStyle="normal" />

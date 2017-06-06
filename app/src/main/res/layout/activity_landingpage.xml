@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_30sdp"
+            android:layout_marginRight="@dimen/_30sdp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_10sdp">
+
+                <TextView
+                    android:id="@+id/tvMaintenance"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/_2sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:background="@color/bg_landing"
+                    android:gravity="center"
+                    android:padding="@dimen/_10sdp"
+                    android:text="Maintenance"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/_20sdp" />
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/tvMaintainanceCount"
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="end"
+                    android:layout_marginBottom="@dimen/_3sdp"
+                    android:background="@drawable/circle_red"
+                    android:gravity="center"
+                    android:text="2"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/_11sdp" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_10sdp">
+
+                <TextView
+                    android:id="@+id/tvBreakdown"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/_2sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:background="@color/bg_landing"
+                    android:gravity="center"
+                    android:padding="@dimen/_10sdp"
+                    android:text="Breakdown"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/_20sdp" />
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/tvBreadownCount"
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="end"
+                    android:layout_marginBottom="@dimen/_2sdp"
+                    android:background="@drawable/circle_red"
+                    android:gravity="center"
+                    android:text="2"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/_11sdp" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_10sdp">
+
+                <TextView
+                    android:id="@+id/tvInspection"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/_2sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:background="@color/bg_landing"
+                    android:gravity="center"
+                    android:padding="@dimen/_10sdp"
+                    android:text="Inspection"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/_20sdp" />
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/tvInspectionCount"
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="end"
+                    android:layout_marginBottom="@dimen/_3sdp"
+                    android:background="@drawable/circle_red"
+                    android:gravity="center"
+                    android:text="2"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/_11sdp" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_10sdp">
+
+                <TextView
+                    android:id="@+id/tvTM"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:background="@color/bg_landing"
+                    android:gravity="center"
+                    android:padding="@dimen/_10sdp"
+                    android:text="@string/TandM"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/_20sdp" />
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/tvTMCount"
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="end"
+                    android:layout_marginBottom="@dimen/_3sdp"
+                    android:background="@drawable/circle_red"
+                    android:gravity="center"
+                    android:text="2"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/_11sdp" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_10sdp">
+
+                <TextView
+                    android:id="@+id/tvParts"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/_2sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:background="@color/bg_landing"
+                    android:gravity="center"
+                    android:padding="@dimen/_10sdp"
+                    android:text="Parts"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/_20sdp" />
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/tvPartsCount"
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="end"
+                    android:layout_marginBottom="@dimen/_3sdp"
+                    android:background="@drawable/circle_red"
+                    android:gravity="center"
+                    android:text="5"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/_11sdp" />
+
+            </RelativeLayout>
+
+
+            <TextView
+                android:id="@+id/tvEmergency"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@color/emergency_color"
+                android:gravity="center"
+                android:padding="@dimen/_10sdp"
+                android:text="Emergency"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_20sdp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

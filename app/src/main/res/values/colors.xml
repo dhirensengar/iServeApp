@@ -17,5 +17,8 @@
     <color name="colorCardViewForeground">#FAFAFA</color>
     <color name="ColorTransparent">#00000000</color>
 
+    <color name="bg_landing">#C3D69B</color>
+    <color name="emergency_color">#FF6600</color>
+    <color name="red">#e54c4c</color>
 
 </resources>

@@ -26,7 +26,7 @@
         <!-- (Major Maintenance & Inspection are similar)-->
     </string-array>
 
-    <string name="SERVER_ADDRESS">http://tact4tech.in/projects/iserve/api/</string>
+    <string name="SERVER_ADDRESS">http://www.employee.greenleaf-uae.com/api/</string>
 
     <string name="API_LOGIN">logincheck.php</string>
     <string name="API_SERVICE">service.php</string>
@@ -60,8 +60,9 @@
     </string-array>
 
 
-
     <string name="agreement">I agree the terms and conditions.</string>
     <string name="clear_pad">Clear Pad</string>
     <string name="save_signature">Save &amp; Submit</string>
+    <string name="TandM">T&amp;M</string>
+
 </resources>

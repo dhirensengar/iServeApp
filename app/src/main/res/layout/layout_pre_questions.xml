@@ -67,7 +67,6 @@
                     android:id="@+id/textViewEquipmentNumber"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-
                     android:gravity="center|left"
                     android:padding="5dp"
                     android:text="Equip #:26"
@@ -219,7 +218,6 @@
                     android:id="@+id/buttonNextSurvey"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-
                     android:background="@drawable/button_rounded"
                     android:onClick="onNextPreQuestionClick"
                     android:text="Next"

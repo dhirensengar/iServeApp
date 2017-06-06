@@ -110,7 +110,7 @@
                             android:layout_height="wrap_content"
                             android:gravity="center"
                             android:padding="6dp"
-                            android:text="QDMaster"
+                            android:text=""
                             android:textColor="@color/colorBlack"
                             android:textSize="20dp"
                             android:textStyle="bold" />
@@ -118,11 +118,11 @@
                     </LinearLayout>
 
                     <TextView
-                        android:id="@+id/textViewQuestions"
+                        android:id="@+id/survey_textViewQuestions"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:padding="6dp"
-                        android:text="Room temperature "
+                        android:text=""
                         android:textColor="@color/colorBlack"
                         android:textSize="@dimen/textSizeQuestion" />
 
@@ -142,7 +142,7 @@
                         android:layout_height="wrap_content"
                         android:orientation="vertical"
                         android:paddingBottom="10dp"
-                        android:visibility="gone">
+                        android:visibility="visible">
 
                         <CheckBox
                             android:id="@+id/radioButtonNA"
@@ -164,10 +164,9 @@
                             android:background="@drawable/layout_rounded_white"
                             android:inputType="number"
                             android:minHeight="50dp"
-
                             android:padding="5dp"
                             android:singleLine="true"
-                            android:text="Hello"
+                            android:text=""
                             android:textColor="@color/coloEditText"
                             android:textStyle="normal" />
 
@@ -232,9 +231,8 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:scaleX="0.90"
-
                             android:scaleY="0.90"
-                            android:text="50 degree"
+                            android:text=""
                             android:textSize="@dimen/textSize3"
                             android:visibility="visible" />
 
@@ -245,7 +243,7 @@
                             android:layout_marginTop="5dp"
                             android:scaleX="0.90"
                             android:scaleY="0.90"
-                            android:text="40 degree"
+                            android:text=""
                             android:textSize="@dimen/textSize3"
                             android:visibility="visible" />
 
@@ -256,7 +254,7 @@
                             android:layout_marginTop="5dp"
                             android:scaleX="0.90"
                             android:scaleY="0.90"
-                            android:text="37 degree"
+                            android:text=""
                             android:textSize="@dimen/textSize3"
                             android:visibility="visible" />
 
@@ -267,7 +265,7 @@
                             android:layout_marginTop="5dp"
                             android:scaleX="0.90"
                             android:scaleY="0.90"
-                            android:text="21 degree"
+                            android:text=""
                             android:textSize="@dimen/textSize3"
                             android:visibility="visible" />
 
@@ -278,7 +276,7 @@
                             android:layout_marginTop="5dp"
                             android:scaleX="0.90"
                             android:scaleY="0.90"
-                            android:text="18 degree"
+                            android:text=""
                             android:textSize="@dimen/textSize3"
                             android:visibility="visible" />
 
@@ -320,7 +318,6 @@
                 android:paddingRight="5dp"
                 android:paddingTop="5dp"
                 android:text="Skip this question"
-
                 android:textColor="@color/coloEditText2"
                 android:textSize="13dip"
                 android:textStyle="bold" />
@@ -346,7 +343,8 @@
                 android:id="@+id/layoutButtonPreviousSurvey"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                android:gravity="center">
 
                 <Button
                     android:id="@+id/buttonPre"
@@ -370,13 +368,14 @@
                 android:id="@+id/layoutButtonSubmitSurvey"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                android:gravity="center"
+                android:visibility="visible">
 
                 <Button
                     android:id="@+id/buttonSubmit"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-
                     android:background="@drawable/button_rounded"
                     android:onClick="onSubmitSurveyClick"
                     android:text="Submit"
@@ -390,13 +389,13 @@
                 android:id="@+id/layoutButtonNextSurvey"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                android:gravity="center">
 
                 <Button
                     android:id="@+id/buttonNextSurvey"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-
                     android:background="@drawable/button_rounded"
                     android:onClick="onNextSurveyClick"
                     android:text="Next"
